@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+backend/.env
+frontend/.env
+
+# Node
+node_modules/
+dist/
+
+# Uploaded documents (encrypted vault) and OS files
+backend/uploads/
+.DS_Store
